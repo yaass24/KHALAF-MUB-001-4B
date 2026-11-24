@@ -5,7 +5,7 @@
 - **Model ID:** KHALAF-MUB-001-4B
 - **Version:** exploratory v0.4
 - **Language:** Arabic
-- **Variety:** Al-Mubarraz colloquial Arabic (MUB_001), within Hasawi Arabic
+- **Variety:** One documented colloquial speech variety from **Al-Mubarraz city, Al-Ahsa Governorate, Saudi Arabia** (MUB_001); locally categorized in this project as **العامية المبرزية** within the wider Hasawi continuum. This is **not** a representative sample of all Al-Mubarraz speakers or a claim of unique lexical features.
 - **Intended task:** dialect-to-MSA text conversion
 - **Parent project:** DAAD (ضاد), planned web application
 - **Base:** Qwen3-4B-Instruct-2507, pinned to revision `cdbee75f17c01a7cc42f958dc650907174af0554`
@@ -19,7 +19,7 @@
 - No publicly hosted adapter URL is asserted.
 
 ## Data provenance
-The corpus includes 1,000 initial pairs (some independently authored, others AI-proposed and accepted or edited), together with 1,500 synthetic/expanded pairs receiving varied levels of human review. They must **not** be described as 2,500 independently verified translations.
+The corpus includes 1,000 initial pairs (some independently authored, others AI-proposed and human-reviewed/accepted or edited), together with 1,500 synthetic/expanded pairs receiving **varying levels of human review**. The linguistic focus is **speech style, phrasing, constructions, and morphology**, not only region-associated vocabulary. Human input and review were part of dataset development, but **not every example was human-authored or independently checked**. Errors in form, meaning, translation, or annotation may remain; the 2,500 pairs are **not** a fully verified gold-standard dataset.
 
 ## Exploratory evaluation
 Reported 10-item repeatedly inspected diagnostic: base Qwen chrF++ 35.71 / BLEU 12.17; adapted KHALAF chrF++ 64.98 / BLEU 52.11. This diagnostic is too small and repeatedly inspected to establish generalization, accuracy or model superiority. Qualitative tests identified mistranslations, agreement errors and occasional other-script artifacts.
@@ -33,7 +33,7 @@ Language technology research, documentation of local linguistic variation, and h
 Production translation, unsupervised linguistic judgments, automatic claims about all Hasawi dialect speakers, legal/medical/financial decisions, and use requiring high factual or grammatical reliability.
 
 ## Known limitations
-- Limited local variety and speaker coverage.
+- One contributor-centered speech variety from Al-Mubarraz, in Al-Ahsa Governorate; limited speaker, neighborhood, and generation coverage. The project label does not imply uniform use across the city.
 - Meaning varies by context, neighborhood, and morphology.
 - Feminine/masculine and singular/plural markers may be confused.
 - Lexicon hints can lead to overcorrection or literal substitutions.
