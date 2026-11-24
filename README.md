@@ -1,13 +1,14 @@
 # خَلَف | KHALAF-MUB-001-4B
 
-**A research prototype for Al-Mubarraz colloquial Arabic → Modern Standard Arabic (MSA).**
+**A research prototype for one documented colloquial speech variety from Al-Mubarraz city, Al-Ahsa Governorate, Saudi Arabia → Modern Standard Arabic (MSA).**
 
 KHALAF (خَلَف) is an Arabic dialect-to-MSA language-model prototype developed as part of the broader **DAAD (ضاد)** Arabic-dialect web-app initiative. *DAAD is the platform; KHALAF is the language model.*
 
 ## Overview
 
-- **Variety:** Al-Mubarraz colloquial Arabic, a local variety within the Hasawi Arabic dialect continuum (MUB_001).
-- **Task:** Convert dialectal text into Modern Standard Arabic while preserving meaning, speaker perspective, negation, and gender/number distinctions where context allows.
+- **Variety:** One documented form of colloquial speech associated with **Al-Mubarraz city in Al-Ahsa Governorate, Saudi Arabia** (MUB_001), within the wider Hasawi dialect continuum. The label **Al-Mubarraz colloquial Arabic (العامية المبرزية)** is a practical, project-specific designation, **not** an assertion of a uniform or exclusive city-wide dialect.
+- **Task:** Convert dialectal text into Modern Standard Arabic while attempting to preserve meaning, speaker perspective, negation, and gender/number distinctions where context allows.
+- **Linguistic focus:** Everyday speech style, sentence structures, phrasing, morphology, and speaker/addressee forms—not only a list of distinctive vocabulary.
 - **Base model:** Qwen3-4B-Instruct-2507.
 - **Adaptation:** QLoRA fine-tuning; approximately 33 million trainable parameters, three epochs.
 - **Training pairs:** 2,500 total (1,000 initial records plus 1,500 synthetic/expanded records with varying levels of human review).
@@ -15,7 +16,7 @@ KHALAF (خَلَف) is an Arabic dialect-to-MSA language-model prototype develop
 - **Status:** **Research prototype — not independently validated for production.**
 
 ### Important clarification about the data
-The 2,500 pairs were **not all independently human-translated or individually verified**. The source material combines manually authored/edited entries, AI-assisted proposals accepted by a reviewer, and synthetic expansions receiving different levels of review. This repository does **not** describe them as a fully verified gold-standard corpus.
+The dataset was **developed with human linguistic input and human review**, including manually authored/edited sentences, AI-assisted proposals reviewed and accepted by the project contributor, and synthetic expansions that received **varying levels of review**. It was **not** entirely written by humans or individually verified by independent reviewers. Linguistic, translation, and annotation errors may remain; this is **not** a fully validated gold-standard corpus.
 
 ## Reported experiments
 
@@ -57,7 +58,7 @@ The linked notebook mounts your Drive and loads that existing adapter with 4-bit
 
 ## Ethics and limitations
 
-Dialect usage differs across neighborhoods and speakers, even within Al-Ahsa. This prototype represents an initial *Al-Mubarraz-centered* contribution, not all Hasawi Arabic. Outputs must be reviewed by a competent speaker, particularly where social context, gender, number, or word meaning is ambiguous. It is not suitable for high-stakes uses.
+Speech patterns vary among families, neighborhoods, generations, and speakers within **Al-Mubarraz**, and across **Al-Ahsa**. The label **العامية المبرزية** identifies the particular style documented by this project; it does **not** claim to represent every resident, exhaust the city's varieties, or define uniquely Al-Mubarraz-only vocabulary. The dataset emphasizes natural **style and constructions** rather than lexical exclusivity. This prototype does not represent all Hasawi Arabic. Outputs must be reviewed by a competent speaker, particularly where social context, gender, number, or word meaning is ambiguous. It is not suitable for high-stakes uses.
 
 ## Publication and licensing
 
