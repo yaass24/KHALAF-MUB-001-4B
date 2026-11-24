@@ -1,8 +1,10 @@
 # خَلَف | KHALAF-MUB-001-4B
 
-[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.24504686.svg)](https://doi.org/10.5281/zenodo.24504686)
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.24505487.svg)](https://doi.org/10.5281/zenodo.24505487)
 
-**Zenodo DOI:** [10.5281/zenodo.24504686](https://doi.org/10.5281/zenodo.24504686) · Archived research software/documentation release (adapter weights and training dataset not included).
+**Latest full research archive (v0.4.1):** [10.5281/zenodo.24505487](https://doi.org/10.5281/zenodo.24505487) — downloadable dataset (2,500 pairs), lexicon (112 entries), QLoRA adapter weights, inference notebook and documentation in one ZIP. **The GitHub repository itself contains the code and documentation, not the weights or CSV files.**
+
+**Previous archive (v0.4.0):** [10.5281/zenodo.24504686](https://doi.org/10.5281/zenodo.24504686) — documentation-only initial release.
 
 
 **A research prototype for one documented colloquial speech variety from Al-Mubarraz city, Al-Ahsa Governorate, Saudi Arabia → Modern Standard Arabic (MSA).**
@@ -59,7 +61,7 @@ The trained QLoRA adapter was stored in the researcher's Google Drive at:
 
 `DaadUnderstand/MUB_001_Qwen3_4B_v04/final_adapter/`
 
-The linked notebook mounts your Drive and loads that existing adapter with 4-bit quantization. A **CUDA GPU** is required for that notebook's inference path; its CPU-only mode checks files and exits cleanly without generating text. The adapter is **not included in this GitHub repository**. This README does not claim that weights are already publicly downloadable.
+The linked notebook mounts your Drive and loads that existing adapter with 4-bit quantization. A **CUDA GPU** is required for that notebook's inference path; its CPU-only mode checks files and exits cleanly without generating text. The adapter is **not included in this GitHub repository**. It is included in the separately hosted [Zenodo v0.4.1 archive](https://doi.org/10.5281/zenodo.24505487) together with the corpus and lexicon. The full Qwen base model is not included.
 
 ## Ethics and limitations
 
@@ -67,12 +69,12 @@ Speech patterns vary among families, neighborhoods, generations, and speakers wi
 
 ## Publication and licensing
 
-**No open-source or dataset license has been selected yet.** Do not assume permission to redistribute the training data, upstream-derived materials, or model weights. Verify all relevant source and base-model licenses before releasing them on Hugging Face or Zenodo. A public code release may be licensed separately once those checks are complete.
+The Zenodo record specifies the depositor-selected license for the combined archive. This GitHub repository has **no separate LICENSE file** at present. Users should review the Zenodo license and upstream base-model terms; third-party rights remain subject to their own conditions. Dataset content includes human and AI-assisted work with varied review depth.
 
 ## Project identity
 
 - **DAAD | ضاد:** Arabic dialect intelligence web platform (in development).
 - **KHALAF | خَلَف:** language model; named for the continuity of linguistic heritage across generations.
-- **This version:** `KHALAF-MUB-001-4B`, exploratory v0.4.
+- **Latest archived version:** `KHALAF-MUB-001-4B` v0.4.1 (full combined research archive).
 
 **Project maintainer:** [@yaass24](https://github.com/yaass24).
