@@ -1,12 +1,15 @@
 cff-version: 1.2.0
 message: "If you use or refer to this research prototype, please cite this software record."
-title: "KHALAF-MUB-001-4B: A Research Prototype for an Al-Mubarraz Colloquial Arabic Variety"
+title: "KHALAF-MUB-001-4B: An Arabic Dialect Language Model and Dataset for an Al-Mubarraz Colloquial Variety"
 type: software
+version: "v0.4.1"
+date-released: 2026-11-24
+doi: 10.5281/zenodo.24505487
 authors:
   - family-names: Almomen
     given-names: Yasmin
 repository-code: "https://github.com/yaass24/KHALAF-MUB-001-4B"
-url: "https://github.com/yaass24/KHALAF-MUB-001-4B"
+url: "https://doi.org/10.5281/zenodo.24505487"
 abstract: >-
   KHALAF is an exploratory Arabic dialect-to-Modern Standard Arabic model
   adapted from Qwen3-4B-Instruct-2507 using QLoRA and 2,500 training
@@ -16,8 +19,9 @@ abstract: >-
   does not claim to represent all varieties spoken in Al-Mubarraz.
   Training data combine human-authored or reviewed examples and
   AI-assisted synthetic expansions with varied review depth; errors may
-  remain. This repository contains documentation and an inference notebook,
-  but not the trained adapter or full training dataset.
+  remain. The full Zenodo v0.4.1 archive contains the dataset, lexicon,
+  LoRA adapter, inference notebook, and documentation. GitHub hosts code
+  and documentation but not the full downloadable archive.
 keywords:
   - Arabic natural language processing
   - Al-Mubarraz
