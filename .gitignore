@@ -1,0 +1,26 @@
+# Research workspace artifacts
+.env
+.env.*
+!.env.example
+*.token
+*.key
+*.pem
+__pycache__/
+.ipynb_checkpoints/
+*.log
+*.safetensors
+*.bin
+*.pt
+*.pth
+*.ckpt
+*.zip
+*.dump
+.cache/
+hf_cache/
+wandb/
+runs/
+checkpoints/
+data/private/
+data/raw/
+outputs/
+results/private/
