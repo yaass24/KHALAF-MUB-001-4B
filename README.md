@@ -1,5 +1,10 @@
 # خَلَف | KHALAF-MUB-001-4B
 
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.24504686.svg)](https://doi.org/10.5281/zenodo.24504686)
+
+**Zenodo DOI:** [10.5281/zenodo.24504686](https://doi.org/10.5281/zenodo.24504686) · Archived research software/documentation release (adapter weights and training dataset not included).
+
+
 **A research prototype for one documented colloquial speech variety from Al-Mubarraz city, Al-Ahsa Governorate, Saudi Arabia → Modern Standard Arabic (MSA).**
 
 KHALAF (خَلَف) is an Arabic dialect-to-MSA language-model prototype developed as part of the broader **DAAD (ضاد)** Arabic-dialect web-app initiative. *DAAD is the platform; KHALAF is the language model.*
